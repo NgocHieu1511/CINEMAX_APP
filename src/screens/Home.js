@@ -91,14 +91,16 @@ export default function Home() {
           <View style={styles.profileRow}>
             <Image
               source={
-                user?.avatar 
-                  ? { uri: user.avatar } 
+                user?.avatar
+                  ? { uri: user.avatar }
                   : require("../../assets/icons/avatar.png")
               }
               style={styles.avatar}
             />
             <View>
-              <Text style={styles.hello}>Hello, {user?.fullName || "Smith"}</Text>
+              <Text style={styles.hello}>
+                Hello, {user?.fullName || "Smith"}
+              </Text>
               <Text style={styles.subText}>
                 Let's stream your favorite movie
               </Text>
@@ -155,7 +157,7 @@ export default function Home() {
             </TouchableOpacity>
             <Text style={styles.category}>Comedy</Text>
             <Text style={styles.category}>Animation</Text>
-            <Text style={styles.category}>Dokument</Text>
+            <Text style={styles.category}>Dokumentary</Text>
           </View>
         </ScrollView>
 

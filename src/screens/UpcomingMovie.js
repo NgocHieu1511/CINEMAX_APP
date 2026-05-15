@@ -39,7 +39,7 @@ export default function UpcomingMovie() {
     },
   ];
 
-  const categories = ["All", "Comedy", "Animation", "Dokument"];
+  const categories = ["All", "Comedy", "Animation", "Dokumentary"];
 
   return (
     <View style={styles.container}>

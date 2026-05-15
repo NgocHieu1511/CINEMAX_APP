@@ -306,7 +306,7 @@ export default function Search() {
                 </TouchableOpacity>
                 <Text style={styles.category}>Comedy</Text>
                 <Text style={styles.category}>Animation</Text>
-                <Text style={styles.category}>Dokument</Text>
+                <Text style={styles.category}>Dokumentary</Text>
               </View>
             </ScrollView>
 

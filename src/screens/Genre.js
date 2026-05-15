@@ -48,7 +48,7 @@ export default function Genre() {
     {
       id: 7,
       title: "Comedy",
-      image: require("../../assets/img/Comedy-img.png"),
+      image: require("../../assets/img/comedy.png"),
     },
     {
       id: 8,
